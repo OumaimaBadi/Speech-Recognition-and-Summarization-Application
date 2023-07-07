@@ -61,7 +61,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 - [GoogleTranslator](https://pypi.org/project/deep-translator/): Utilized GoogleTranslator for language translation.
 
 2- **Arabic recognation**
-- [SpeechRecognition]: This project utilizes the SpeechRecognition library for Python, which provides speech recognition capabilities.
-- [Arabic Reshaper]: The Arabic Reshaper library is used to reshape Arabic text to ensure proper display and rendering.
-- [python-bidi]: The python-bidi library is used to handle bidirectional text, which is essential for displaying Arabic text correctly.
-- [Summa]: The Summa library is used for text summarization, which helps in generating concise arabic summaries of text documents.
+- SpeechRecognition: This project utilizes the SpeechRecognition library for Python, which provides speech recognition capabilities.
+- Arabic Reshaper: The Arabic Reshaper library is used to reshape Arabic text to ensure proper display and rendering.
+- python-bidi: The python-bidi library is used to handle bidirectional text, which is essential for displaying Arabic text correctly.
+- Summa: The Summa library is used for text summarization, which helps in generating concise arabic summaries of text documents.
