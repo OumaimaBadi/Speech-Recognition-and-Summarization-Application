@@ -47,7 +47,7 @@ We have chosen AssemblyAI as our preferred English speech recognition and transc
    
 ## Contributors
 
-**AI Team:** BADI Oumaima && AlMUZAINI Rahaf
+**AI Team:** BADI Oumaima && ALMUZAINI Rahaf
 
 Feel free to contribute to this project by opening issues, submitting pull requests, or suggesting new features.
 
