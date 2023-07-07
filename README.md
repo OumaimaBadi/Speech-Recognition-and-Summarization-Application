@@ -56,11 +56,11 @@ Feel free to contribute to this project by opening issues, submitting pull reque
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code according to the terms of the license.
 
 ## Acknowledgements
-   1- **English recognation**
+1- **English recognation**
 - [AssemblyAI](https://www.assemblyai.com/): Integrated AssemblyAI's speech recognition API for audio transcription and summarization.
 - [GoogleTranslator](https://pypi.org/project/deep-translator/): Utilized GoogleTranslator for language translation.
-  
-  2- **Arabic recognation**
+
+2- **Arabic recognation**
 - [SpeechRecognition]: This project utilizes the SpeechRecognition library for Python, which provides speech recognition capabilities.
 - [Arabic Reshaper]: The Arabic Reshaper library is used to reshape Arabic text to ensure proper display and rendering.
 - [python-bidi]: The python-bidi library is used to handle bidirectional text, which is essential for displaying Arabic text correctly.
