@@ -1,10 +1,11 @@
 
-
-***Installation of dependencies***
+"""***Installation of dependencies***"""
 
 !pip install assemblyai
 
 !pip install deep_translator
+
+
 
 """***Display audio***"""
 
@@ -18,6 +19,8 @@ def play_audio(file_path):
 # Example usage
 audio_file = "/content/drive/MyDrive/marketplace_full.mp3"
 play_audio(audio_file)
+
+
 
 """***Speech recognation***"""
 
@@ -131,6 +134,8 @@ formatted_text = "\n".join(chunks)
 
 print(formatted_text)
 
+
+
 """***Speaker recognation(not completed yet)***"""
 
 import requests
@@ -242,6 +247,9 @@ for utterance in transcrSpeaker['utterances']:
 
 print(transcrSpeaker['utterances'])
 
+
+
+
 """***Summarization***"""
 
 import requests
@@ -346,9 +354,14 @@ transcript = create_transcript(your_api_token, upload_url)
 # Print the summary
 print(transcript["summary"])
 
+
+
+
 """***Translate the text from english to any language the user want***"""
 
 from deep_translator import GoogleTranslator
+
+#Example 1
 
 translator = GoogleTranslator(source='auto', target='ar')
 
@@ -368,33 +381,7 @@ translated_text = " ".join(translations)
 
 print(translated_text)
 
-from deep_translator import GoogleTranslator
-
-translator = GoogleTranslator(source='auto', target='ar')
-
-
-# Split the text into smaller chunks
-chunk_size = 500  # Adjust as per your needs
-chunks = [transcript["summary"][i:i+chunk_size] for i in range(0, len(transcript["summary"]), chunk_size)]
-
-# Translate each chunk and store the results
-translations = []
-for chunk in chunks:
-    translation = translator.translate(chunk)
-    translations.append(translation)
-
-# Concatenate the translations
-translated_text = " ".join(translations)
-
-print(translated_text)
-
-# Split the transcript into chunks of maximum length 80 characters
-chunks = [translated_text[i:i+110] for i in range(0, len(translated_text), 110)]
-
-# Join the chunks with line breaks
-formatted_text_Trans= "\n".join(chunks)
-
-print(formatted_text_Trans)
+#Example 2
 
 from deep_translator import GoogleTranslator
 
@@ -413,55 +400,4 @@ for utterance in transcrSpeaker['utterances']:
     translated_text = translator.translate(text)
 
     print(f"Intervenant {translated_speaker}: {translated_text}\nConfiance: {confidence}\n")
-
-from deep_translator import GoogleTranslator
-
-translator = GoogleTranslator(source='auto', target='fr')
-
-# Convert the transcrSpeaker object to a string
-transcrSpeaker = str(transcrSpeaker)
-
-# Split the text into smaller chunks
-chunk_size = 500  # Adjust as per your needs
-chunks = [transcrSpeaker[i:i+chunk_size] for i in range(0, len(transcrSpeaker), chunk_size)]
-
-# Translate each chunk and store the results
-translations = []
-for chunk in chunks:
-    translation = translator.translate(chunk)
-    translations.append(translation)
-
-# Concatenate the translations
-translated_text = " ".join(translations)
-
-print(translated_text)
-
-def print_structured_dialogue(dialogue):
-    lines = dialogue.split('?')
-    for i in range(0, len(lines), 2):
-        if i + 1 < len(lines):
-            person1 = lines[i] + '?'
-            person2 = lines[i + 1] + '?'
-            print(f"Person 1: {person1.strip()}")
-            print(f"Person 2: {person2.strip()}")
-            print()
-
-# Example usage
-
-print_structured_dialogue(res)
-
-def print_structured_dialogue(dialogue):
-    lines = dialogue.split('?')
-    for i in range(0, len(lines), 2):
-        if i + 1 < len(lines):
-            person1 = lines[i] + '.'
-            person2 = lines[i + 1] + '.'
-            print(f"Person 1: {person1.strip()}")
-            print(f"Person 2: {person2.strip()}")
-            print()
-
-# Example usage
-dialogue = "Salut.Comment allez-vous?Je vais bien merci.Et toi?Ne peut pas se plaindre."
-print_structured_dialogue(res)
-
-type(result)
+    
