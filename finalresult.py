@@ -1,11 +1,6 @@
 
-## Connect to google drive colab
 
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-"""***Installation of dependencies***"""
+***Installation of dependencies***
 
 !pip install assemblyai
 
