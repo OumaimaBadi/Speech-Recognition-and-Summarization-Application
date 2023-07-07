@@ -33,7 +33,7 @@ To install and run the application, follow these steps:
 
 ## Why AssemblyAI?
 
-We have chosen AssemblyAI as our preferred speech recognition and transcription solution for the following reasons:
+We have chosen AssemblyAI as our preferred English speech recognition and transcription solution for the following reasons:
 
 1. **Accuracy and Reliability:** AssemblyAI offers highly accurate and reliable speech recognition, ensuring that our audio files are transcribed with precision.
    
@@ -56,6 +56,12 @@ Feel free to contribute to this project by opening issues, submitting pull reque
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code according to the terms of the license.
 
 ## Acknowledgements
-
-- [AssemblyAI](https://www.assemblyai.com/) - Integrated AssemblyAI's speech recognition API for audio transcription and summarization.
-- [GoogleTranslator](https://pypi.org/project/deep-translator/) - Utilized GoogleTranslator for language translation.
+   1- **English recognation**
+- [AssemblyAI](https://www.assemblyai.com/): Integrated AssemblyAI's speech recognition API for audio transcription and summarization.
+- [GoogleTranslator](https://pypi.org/project/deep-translator/): Utilized GoogleTranslator for language translation.
+  
+  2- **Arabic recognation**
+- [SpeechRecognition]: This project utilizes the SpeechRecognition library for Python, which provides speech recognition capabilities.
+- [Arabic Reshaper]: The Arabic Reshaper library is used to reshape Arabic text to ensure proper display and rendering.
+- [python-bidi]: The python-bidi library is used to handle bidirectional text, which is essential for displaying Arabic text correctly.
+- [Summa]: The Summa library is used for text summarization, which helps in generating concise arabic summaries of text documents.
