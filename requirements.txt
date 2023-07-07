@@ -1,0 +1,3 @@
+assemblyai==0.2.2  # Required for integrating with AssemblyAI API
+requests==2.26.0  # Required for making HTTP requests to API endpoints
+deep_translator==1.5.0  # Required for text translation functionality
