@@ -44,16 +44,17 @@ We have chosen AssemblyAI as our preferred English speech recognition and transc
 4. **Quality Summaries:** AssemblyAI goes beyond speech recognition by offering quality summaries directly from the transcribed text. This feature allows us to generate concise summaries of lengthy audio recordings, enhancing the user experience.
 
 5. **Scalability and Performance:** AssemblyAI's robust infrastructure ensures scalability, allowing our application to handle multiple transcription requests simultaneously without compromising performance.
-   
-## Contributors
 
-**AI Team:** BADI Oumaima && ALMUZAINI Rahaf
+## Demo Presentation at the Hackathon, Hosted on the LabLab Platform
 
-Feel free to contribute to this project by opening issues, submitting pull requests, or suggesting new features.
+Experience our Soma project live: [Innovating AI Solutions - Soma on LabLab](https://lablab.me/event/innovating-ai-solutions/summa/summa)
 
-## License
+Introducing Soma, the ultimate solution for audio-to-text conversion designed to simplify your workflows. Soma transcends traditional transcription by offering features like multi-language translation, enhancing your global reach. Moreover, its innovative summarization capabilities transform lengthy audio files into concise, actionable insights swiftly.
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code according to the terms of the license.
+Engage with our AI chat feature for instant clarification on any content, making it ideal for both English and Arabic speakers, encompassing a vast potential audience of nearly 2 billion globally. Soma is offered through a flexible subscription model, ranging from basic access at no cost to premium tiers for advanced features, ensuring it's accessible to everyone.
+
+Our team is committed to pushing the boundaries of what's possible in audio conversion and translation technology. By investing in Soma, you're joining a forward-thinking venture ready to redefine how we interact with media. Be a part of the change with Soma, where innovation meets practicality.
+
 
 ## Acknowledgements
 1- **English speech recognation and summarization with translation**
@@ -65,3 +66,15 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 - Arabic Reshaper: The Arabic Reshaper library is used to reshape Arabic text to ensure proper display and rendering.
 - python-bidi: The python-bidi library is used to handle bidirectional text, which is essential for displaying Arabic text correctly.
 - Summa: The Summa library is used for text summarization, which helps in generating concise arabic summaries of text documents.
+   
+## Contributors
+
+**AI Team:** BADI Oumaima && ALMUZAINI Rahaf
+
+Feel free to contribute to this project by opening issues, submitting pull requests, or suggesting new features.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code according to the terms of the license.
+
